@@ -74,13 +74,23 @@ button:active {
   background-color: #1D1D35;
   color: #FFFBFE;
 }
+.Bloco3 {
+  flex-direction: row;
+  height: 35vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #11111f;
+  color: #FFFBFE;
+}
 .Aglomerar {
   background-color: #1D1D35;
 }
 
 .Cont {
   width: 33%;
-  height: 70%;
+  height: 80%;
   background-color: #34647d;
   border-radius: 0.5cm;
 }

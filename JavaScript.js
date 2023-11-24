@@ -2,6 +2,9 @@ let res = document.getElementById("res");
 let res2 = document.getElementById("res2");
 let res3 = document.getElementById("res3");
 let res4 = document.getElementById("res4");
+let res5 = document.getElementById("res5");
+let res6 = document.getElementById("res6");
+let res7 = document.getElementById("res7");
 let num_array_original = [];
 let num_array2 = [];
 let num_array_original2 = [];
@@ -86,4 +89,18 @@ function quickRecursiva(vetor) {
 function quickSort() {
   num_array2 = quickRecursiva(num_array_original2);
   res4.innerHTML = `[ ${num_array2} ]`;
+}
+function soma(){
+ //media = ((num1*3)+(num2*3)+(num3*4))/10;
+  let divi = 0
+  let num1 = Number(document.getElementById('num1').value)
+  let num2 = Number(document.getElementById('num2').value)
+  let num3 = Number(document.getElementById('num3').value)
+  let resposta = document.getElementById('escreva')
+  resp  = num1 + num2 +num3
+  divi = resp/3
+ // pond = 
+res5.innerHTML = 'A soma é = ' + resp
+res6.innerHTML = 'A média artimédica é = ' + divi
+res7.innerHTML = 'A média ponderada é = ' + media
 }
